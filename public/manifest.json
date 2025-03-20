@@ -1,0 +1,51 @@
+{
+  "name": "ParkEase - Offline Parking Management",
+  "short_name": "ParkEase",
+  "description": "Find and book parking spots even without internet",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4f46e5",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-maskable-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icons/icon-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Find Parking",
+      "short_name": "Find",
+      "description": "Find parking spots near you",
+      "url": "/find-parking",
+      "icons": [{ "src": "/icons/find-parking.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "My Bookings",
+      "short_name": "Bookings",
+      "description": "View your parking bookings",
+      "url": "/bookings",
+      "icons": [{ "src": "/icons/bookings.png", "sizes": "192x192" }]
+    }
+  ]
+}
+
